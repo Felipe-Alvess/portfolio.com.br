@@ -1,0 +1,528 @@
+/* reset inicial */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 99%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    scroll-behavior: smooth;
+    
+    
+   
+}
+
+/* reset inicial */
+
+/* portfolio */
+
+.portfolio{
+    position: absolute;
+    left: 0;
+    top:8%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: flex;
+}
+
+.portfolio span{
+    color: red;
+}
+
+/* portfolio */
+
+/* menu principal */
+
+nav{
+position: fixed;
+top: 0%;
+width: 100%;
+height: 6.4%;
+background-color: #ddd;
+z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    
+}
+
+nav li{
+    padding: 10px;
+    transition: 1s ease-in´[];
+}
+
+nav li:hover{
+background-color: #333;
+color: #ddd;
+border-bottom: 1px solid red;
+}
+
+@media (max-width:900px) {
+    nav{
+        width: 100%;
+    }
+    nav li {
+        visibility: hidden;
+        
+    }
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+/* menu principal */
+
+/* titulos e subtítulos */
+
+.titulos{
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    display: inline-flex;
+    gap: 10Px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  
+}
+.titulos h2{
+    font-size: 30px;
+}
+.titulos h1{
+    position: relative;
+    top: -15px;
+    font-size: 50px;
+    color: aqua;
+}
+
+#typingText{
+    color: red;
+    font-size: 26px;
+    position: absolute;
+    top: 100%;
+}
+
+/* titulos e subtítulos */
+
+/* minha imagem */
+
+.minha-imagem{
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translate(50%, -50%);
+   
+   
+}
+
+.minha-imagem img {
+width: 300px;
+height: 300px;
+border-radius: 50%;
+padding: 6px;
+background-image: linear-gradient(360deg,aqua,purple,aqua,purple);
+box-shadow: 0px 0px 15px 3px aqua;
+}
+
+/* minha imagem */
+
+/* menu -mobile */
+
+.menu-mobile{
+   position: fixed;
+   left: 0;
+   top: 1%;
+   z-index: 1;
+   padding: 0 1%;
+   display: none;
+}
+.menu-mobile i{
+   font-size: 30px;
+   color: black;
+   cursor: pointer;
+}
+
+.menu-mobile i:hover{
+    color: rgb(250, 1, 1);
+}
+@media screen and (max-width:900px) {
+    .menu-mobile {
+        display: block;
+        
+    }
+}
+
+.dropdown{
+    position: absolute;
+    margin-top: 8%;
+    left: 0;
+    text-align: left;
+}
+
+.dropdown ul{
+    list-style: none;
+    font-size: 22px;
+    padding: 1px;
+    background-color: #33333391;
+    display: none;
+}
+
+.dropdown li {
+    margin: 12px 0;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.dropdown li:hover{
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+.dropdown li:hover{
+    display: block;
+    color: #333;
+}
+
+.dropdown a{
+    color: inherit;
+    text-decoration: none;
+}
+/* menu -mobile */
+
+/* media social */
+
+.media-social{
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    display: flex;
+}
+
+.media-social p{
+    font-size: 22px;
+    border: 1px solid;  
+    margin: 3px;
+    padding: 5px;
+    border-radius: 1px ;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 2s;
+}
+
+.media-social p:hover{
+    background-color: aqua;
+    color: black;
+    
+}
+
+.media-social a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* media social */
+
+/* dados */
+
+#contatos{
+    position: relative;
+    top: 100vh;
+    width: 100%;
+    padding: 18%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dados{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 50%;
+    
+}
+
+.dados i{
+    font-size: 30px;
+    color: red;
+}
+
+.dados h2{
+    color: red;
+}
+
+.dados p{
+    margin: 15px 0;
+    font-size: 20px;
+   
+    padding: 0 2%;
+}
+
+.dados span{
+    color: red;
+}
+/* dados */
+
+/* Habilidades */
+
+#habilidades{
+    position: absolute;
+    top: 200%;
+    padding: 17% 0;
+  
+   display: flex;
+   justify-content: center;
+}
+
+.skills{
+    margin: 20px;
+    color: #000;
+    background-color: #fff;
+    padding: 5%;
+    width: 50%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.skills h2{
+    color: red;
+    position: absolute;
+    padding-bottom:12%;
+}
+
+.skills p{
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+/* Habilidades */
+
+/* projetos */
+
+#projetos{
+    position: absolute;
+    padding: 20%;
+    top: 290%;
+    width: 100%;
+}
+
+.works{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10% 20%;
+    border-radius: 12px;
+}
+
+.works h2{
+    position: absolute;
+    padding-bottom: 24%;
+    color: red;
+}
+.works img{
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    border: 3px solid black;
+    background-image: linear-gradient(45deg,aqua,purple,aqua,purple);
+    cursor: pointer;
+    position: relative;
+    left: 10%;
+}
+
+.works img:hover{
+    padding: 8px;
+    clip-path: circle();
+}
+
+.works a{
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    white-space: nowrap;
+    position: relative;
+    top: 12vh;
+    left: -10%;
+}
+
+/* projetos */
+
+/* Sobre */
+
+#sobre{
+    position: absolute;
+    top: 380%;
+    padding: 20%;
+}
+
+.sobremim{
+    background-color: #fff;
+    color: #000;
+    padding: 3%;
+    border-radius: 12px;
+}
+
+.sobremim h2{
+    color: red;
+    padding-bottom: 2%;
+}
+
+.sobremim p{
+    font-size: 20px;
+}
+/* Sobre */
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+.minha-imagem{
+    position: absolute;
+    left: 9%;
+    top: 28%;
+}
+
+.minha-imagem img{
+    width: 150px;
+    height: 150px;
+    }
+
+.titulos h2{
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.titulos h1{
+    font-size: 32px;
+    padding: 2% 2%;
+    white-space: nowrap;
+   
+}
+
+#typingText{
+    white-space: nowrap;
+    font-size: 22px;
+}
+
+.media-social{
+    position: absolute;
+    left: 7.5%;
+}
+
+#contatos{
+    padding: 30% 0;
+    position: absolute;
+    top: 90%;
+}
+
+.dados {
+    width: 89%;
+    padding: 20% 0;
+}
+
+.dados p{
+text-align:left;
+font-size: 18px;
+}
+
+#habilidades{
+    position: absolute;
+    padding: 20% 0;
+    top: 150%;
+}
+
+.skills{
+    width: 96%;
+    padding: 10% 0;
+}
+.skills h2{
+    position: absolute;
+    top: 18%;
+ }
+
+ .skills p{
+    padding: 0 2%;
+    text-align: left;
+    
+ }
+
+
+#projetos{
+position: absolute;
+top: 217%;
+left: -14%;
+padding: 20%;
+}
+
+.works {
+width: 84vw;
+display: block;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding:15% 20%;
+}
+
+.works img{
+    position: relative;
+    top: 30px;
+    left: 2%;
+    margin: 10px;
+    
+}
+.works h2{
+position: absolute;
+left: 35%;
+top: 2%;
+}
+
+.works a{
+   position: relative;
+   top: 25px;
+   left: 1%;
+}
+
+#sobre{
+    position: absolute;
+    top: 335%;
+}
+
+.sobremim {
+    width: 84vw;
+    padding: 10% 5%;
+}
+
+.sobremim p{
+    text-align: left;
+}
+}
+
+
+
+
