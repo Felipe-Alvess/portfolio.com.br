@@ -14,3 +14,12 @@ function clickMenu(){
         itens.style.display = 'block'
     }
 }
+
+function fecharMenu(){
+    if(itens.style.display == 'block'){
+        itens.style.display = 'none'
+    }else{
+        itens.style.display = 'block'
+}
+    
+}
