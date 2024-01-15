@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./img/notebook");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    
+}
+
+html,body {
+scroll-behavior: smooth;
+}
+
+/* portfólio */
+
+.portfolio {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
+.portfolio span {
+    color:red;
+}
+
+/* portfólio */
+
+/* menu principal */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #cccccc60;
+    width: 100%;
+    height: 7.5%;
+    display: flex;
+    justify-content:right;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+    font-size: 22px;
+    transition: 1s;
+    z-index: 100;
+    
+}
+
+nav a:hover {
+    color: rgba(255, 1, 1, 0.918);
+    border-bottom: 2px solid red;
+    font-weight: 500; 
+}
+
+/* menu principal */
+
+/* menu mobile */
+
+.menu-mobile {
+    position: fixed;
+    top: 2%;
+    z-index: 100;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 100%;
+    padding: 0 1%;
+    display: none;
+}
+
+.menu-mobile i {
+    font-size: 30px;
+    color:#000;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.menu-mobile i:hover {
+    color: red;
+}
+
+.dropdown {
+    position: absolute;
+    margin-top: 18.5%;
+    left: .1%;
+    cursor: pointer;
+    
+    
+}
+
+.dropdown li {
+text-align: left;
+color: #fff;
+padding:10px;
+font-size: 26px;
+}
+
+.dropdown ul {
+    list-style: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    display: none;
+    
+}
+
+.dropdown li:hover {
+    background-color: #a8a4a49d;
+    transition: 1s ease-in;
+    
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* menu mobile */
+
+/* titulo */
+
+.titulo {
+    display: flex;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #fff;
+}
+
+.titulo h1 {
+color: red;
+font-size: 40px;
+margin-top: -12px;
+}
+
+#typingText {
+    color: red;
+    margin-top: 10%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* titulo */
+
+
+/* media social */
+
+.btn {
+    position: absolute;
+    top:70%;
+    left: 10%;
+    
+}
+
+.btn i {
+font-size: 30px;
+color: #fff;
+}
+
+.btn .document {
+    position: relative;
+    top: -8px;
+    left: 2%;
+    border: 2px solid #fff;
+    padding: 8px;
+    background-color: #ffffff65;
+    transition: .5s;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn .document:hover {
+    background-color: #fff;
+    color: #000;
+    
+}
+/* media social */
+
+/* section */
+
+/* Sessãoo contatos */
+#contatos {
+    padding: 15%;
+    background-color: #000000;
+    width: 100%;
+    height: 652px;
+    position: absolute;
+    top: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+}
+.dados h2 {
+color: red;
+margin-bottom: 10px;
+font-size: 30px;
+}
+
+.dados p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+/* Sessãoo contatos */
+
+/*  Sessão Projetos  */
+
+#projetos {
+    position: absolute;
+    top: 170%;
+    padding: 20%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.works {
+display: block;
+flex-direction: row;
+}
+
+.works h2 {
+    color: red;
+}
+
+.works img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.works a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding:0 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+/*  Sessão Projetos  */
+
+/* Sessão sobre  */
+
+#sobre {
+    position: absolute;
+    top: 250%;
+    padding:15%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+.sobremim {
+    display: flex;
+    text-align: left;
+}
+
+.sobremim h2 {
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.sobremim p {
+    color: #fff;
+    font-size: 20px;
+    margin:0 10px;
+    letter-spacing: 1px;
+}
+
+.sobremim img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+/* Sessão sobre  */
+
+/* section */
+
+
+
+/* Responsivo 500px */
+@media (max-width:500px) {
+   
+    nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: #fff;
+           
+    }
+    
+    nav a {
+        font-size: 20px;
+        visibility: hidden;
+    }
+
+    .menu-mobile {
+        display: block;
+        justify-content: center;
+        text-align: left;
+        
+    }
+
+    .dropdown {
+        top: -45px;
+        
+    }
+    
+    .dropdown li{
+        font-size: 20px;
+    }
+    
+    .dropdown ul {
+        margin-top: 15px;
+    }
+    .portfolio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo {
+        display: block;
+        text-align: left;
+        margin-top: -70%;
+    }
+
+    .titulo h1 {
+        font-size: 26px;
+        margin-top:5px;
+    }
+
+    .titulo h2 {
+        font-size: 20px;
+    }
+
+    #typingText {
+        font-size: 20px;
+        margin-top: -1px;
+    }
+    .minhafoto {
+        display: none;
+    }
+
+    .btn {
+        top: 28%;
+    }
+
+    .btn i {
+        font-size: 25px;
+    }
+
+    .document {
+        font-size: 12px;
+    }
+     #contatos {
+        top: 34.3%;
+        left: 0%;
+        background: none;
+        padding:0;
+     }
+
+    .dados {
+        background-color: #ddd;
+        
+        padding: 2%;
+    }
+    
+    .dados h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .dados p {
+        font-size: 18px;
+        color: #000;
+        padding: 5px;
+    }
+
+    .dados i {
+        font-size: 24px;
+    }
+    
+    #projetos {
+        top: 66.5%;
+        background: none;
+        padding:0;
+    }
+    
+    .works {
+        background-color: #ddd;
+        padding: 2% 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    .works a {
+        border: 2px solid #000;
+        width: 250px;
+        margin:5px auto;
+    }
+
+    #sobre {
+     background: none;
+     top: 146%;
+     left: 0;
+     padding: 0;
+     }
+
+    .sobremim {
+        background-color: #ddd;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+   .sobremim h2 {
+    position: absolute;
+    left: 45%;
+    top: 4%;
+    
+    }
+   .sobremim img {
+    width: 200px;
+    height: 300px;
+    margin-top: 20%;
+    
+   }
+    .sobremim p {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        text-align:left;
+        color: #000;
+        padding-bottom: 10%;
+        margin-top: 10px;
+    }
+}
+    
+/* Responsivo 500px */
+
+/* Responsivo 7680px */
+
+
+/* Responsivo 7680px */
+
