@@ -450,7 +450,7 @@ flex-direction: row;
 
     #sobre {
      background: none;
-     top: 160%;
+     top: 164%;
      left: 0;
      padding: 0;
      }
@@ -492,6 +492,10 @@ flex-direction: row;
 /* Responsivo 768px */
 
 @media screen and (max-width:768px){
+
+#typingText {
+    margin-top: 10%;
+}
 
 #sobre {
     margin: 10% 0;
