@@ -156,7 +156,7 @@ margin-top: -12px;
 
 #typingText {
     color: red;
-    margin-top: 10%;
+    margin-top: 13%;
     position: absolute;
     font-size: 30px;
     font-weight: 500;
@@ -170,7 +170,7 @@ margin-top: -12px;
 
 .btn {
     position: absolute;
-    top:70%;
+    top:65%;
     left: 10%;
     
 }
