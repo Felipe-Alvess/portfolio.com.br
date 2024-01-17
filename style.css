@@ -489,8 +489,24 @@ flex-direction: row;
     
 /* Responsivo 500px */
 
-/* Responsivo 7680px */
+/* Responsivo 768px */
 
+@media screen and (max-width:768px){
+
+#sobre {
+    margin: 10% 0;
+}
+
+.sobremim p {
+font-size: 15px;
+padding: 0;
+}
+
+.sobremim h2 {
+    margin-top: -8%;
+}
+    
+}
 
 /* Responsivo 7680px */
 
