@@ -450,7 +450,7 @@ flex-direction: row;
 
     #sobre {
      background: none;
-     top: 154%;
+     top: 156%;
      left: 0;
      padding: 0;
      }
@@ -470,9 +470,10 @@ flex-direction: row;
     
     }
    .sobremim img {
-    width: 200px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     margin-top: 20%;
+    border-radius: 50%;
     
    }
     .sobremim p {
