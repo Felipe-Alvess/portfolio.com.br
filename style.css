@@ -450,7 +450,7 @@ flex-direction: row;
 
     #sobre {
      background: none;
-     top: 160%;
+     top: 158.5%;
      left: 0;
      padding: 0;
      }
@@ -466,7 +466,7 @@ flex-direction: row;
    .sobremim h2 {
     position: absolute;
     left: 45%;
-    top: 4%;
+    top: 5%;
     
     }
    .sobremim img {
