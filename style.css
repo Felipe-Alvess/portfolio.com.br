@@ -193,7 +193,7 @@ color: #fff;
 .btn a {
     text-decoration: none;
     color: #000;
-    font-weight: 500;
+    font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -400,7 +400,8 @@ flex-direction: row;
     .document {
         font-size: 12px;
     }
-     #contatos {
+     
+    #contatos {
         top: 34.3%;
         left: 0%;
         background: none;
