@@ -268,7 +268,7 @@ header a {
         display: flex;
         justify-content: center;
         text-align: center;
-       margin-top: -20rem;
+        margin-top: -17rem;
     }
     
     .caixa {
@@ -422,7 +422,7 @@ header a {
 @media (max-width: 468px) {
 
     .projetos{
-        margin-top: -8rem;
+        margin-top: -22rem;
     }
 }
 
@@ -524,14 +524,14 @@ transition: transform 0.3s ease;
 .certificados{
         width: 100%;
         padding-top: 4rem;
-        margin-top: -7rem;
+        margin-top: -22rem;
     }
 }
 
 @media (max-width: 468px) {
 
     .certificados img{
-        width: 450px;
+        width: 400px;
     }
 }
 
@@ -581,6 +581,12 @@ transition: transform 0.3s ease;
         display: block;
         
     }
+}
+
+@media (max-width: 468px) {
+ .sobre {
+    margin-top: -22rem;
+ }   
 }
 
 /* sessão sobre */
