@@ -268,7 +268,7 @@ header a {
         display: flex;
         justify-content: center;
         text-align: center;
-        margin-top: -17rem;
+        margin-top: -16rem;
     }
     
     .caixa {
@@ -337,7 +337,7 @@ header a {
 @media (max-width: 468px) {
     .media-social {
         margin-left: 6rem;
-        margin-top: -7rem;
+        margin-top: -8rem;
     }
 }
 
@@ -422,7 +422,7 @@ header a {
 @media (max-width: 468px) {
 
     .projetos{
-        margin-top: -17rem;
+        margin-top: -19rem;
     }
 }
 
@@ -530,7 +530,7 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
      .certificados{
-        margin-top: -17rem;
+        margin-top: -19rem;
      }
     .certificados img{
         width: 400px;
@@ -601,7 +601,7 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
  .sobre {
-    margin-top: -17rem;
+    margin-top: -19rem;
  }   
 }
 
@@ -675,7 +675,7 @@ color: red;
 @media (max-width: 468px) {
     .contatos{
         display: block;
-        margin-top: -17rem;
+        margin-top: -19rem;
     }
 
     
