@@ -655,3 +655,10 @@ color: red;
         display: block;
     }
 }
+
+@media (max-width: 425px){
+    header {
+        width: 100%;
+        padding:  2% 0;
+    }
+}
