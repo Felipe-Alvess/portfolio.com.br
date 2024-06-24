@@ -278,7 +278,7 @@ header a {
 @media (max-width: 468px) {
     .subTitulo{
     position: absolute;
-    top: -10rem;
+    top: -8rem;
     display: flex;
     text-align: center;
     align-items: center;
@@ -350,7 +350,7 @@ header a {
 @media (max-width: 468px) {
     .media-social {
         margin-left: 6rem;
-        margin-top: -1rem;
+        margin-top: -3rem;
     }
 }
 
@@ -687,7 +687,7 @@ color: red;
 @media (max-width: 468px) {
     .contatos{
         display: block;
-        margin-top: -9rem;
+        margin-top: -11rem;
     }
 }
 
