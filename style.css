@@ -689,15 +689,13 @@ color: red;
 @media (max-width: 468px) {
     .contatos{
         display: block;
-        margin-top: -19rem;
+        margin-top: -9rem;
     }
-
-    
 }
 
 @media (max-width: 425px){
     header {
         width: 100%;
-        padding: 6% 0;
+        padding: 4% 0;
     }
 }
