@@ -264,9 +264,15 @@ header a {
 }
 
 @media (max-width: 468px) {
+    .subTitulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
     .caixa {
-        margin-left: -1rem;
-        margin-top: -10rem;
+    margin-top: -10rem;
+    margin-left: -2rem;
     }
 
     .caixa img {
@@ -285,7 +291,7 @@ header a {
 
     #typingText {
         margin-top: -5.8rem;
-        font-size: 17px;
+        font-size: 15px;
     }
 
 }
@@ -329,8 +335,8 @@ header a {
 
 @media (max-width: 468px) {
     .media-social {
-        margin-left: 5rem;
-        margin-top: 2rem;
+        margin-left: 6rem;
+        margin-top: -1.3rem;
     }
 }
 
@@ -639,6 +645,12 @@ color: red;
         margin-top: -7rem;
     }
     .contatos ul {
+        display: block;
+    }
+}
+
+@media (max-width: 468px) {
+    .contatos{
         display: block;
     }
 }
