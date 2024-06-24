@@ -278,7 +278,7 @@ header a {
 @media (max-width: 468px) {
     .subTitulo{
     position: absolute;
-    top: -4rem;
+    top: -10rem;
     display: flex;
     text-align: center;
     align-items: center;
