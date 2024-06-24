@@ -292,7 +292,7 @@ header a {
 
     #typingText {
         margin-top: -5.8rem;
-        font-size: 15px;
+        font-size: 25px;
     }
 
 }
@@ -337,7 +337,7 @@ header a {
 @media (max-width: 468px) {
     .media-social {
         margin-left: 6rem;
-        margin-top: -12rem;
+        margin-top: -7rem;
     }
 }
 
@@ -422,7 +422,7 @@ header a {
 @media (max-width: 468px) {
 
     .projetos{
-        margin-top: -22rem;
+        margin-top: -17rem;
     }
 }
 
@@ -529,9 +529,12 @@ transition: transform 0.3s ease;
 }
 
 @media (max-width: 468px) {
-
+     .certificados{
+        margin-top: -17rem;
+     }
     .certificados img{
         width: 400px;
+        
     }
 }
 
@@ -585,7 +588,7 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
  .sobre {
-    margin-top: -22rem;
+    margin-top: -17rem;
  }   
 }
 
@@ -659,7 +662,10 @@ color: red;
 @media (max-width: 468px) {
     .contatos{
         display: block;
+        margin-top: -17rem;
     }
+
+    
 }
 
 @media (max-width: 425px){

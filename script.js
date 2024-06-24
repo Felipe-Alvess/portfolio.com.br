@@ -21,13 +21,8 @@ document.body.classList.toggle('white');
 
 new TypeIt('#typingText',{
 speed:200,
-strings:["Eu sou' Felipe Alves"],
+strings:["Eu sou' Felipe Alves",'Desenvolvedor Front End', 'Web Designer'],
 })
-
-
-.type(' Desenvolvedor Front End', {delay:(3000)})
-.delete(9)
-.type(' Web Designer',{delay:(3000)})
 .go();
 
 
