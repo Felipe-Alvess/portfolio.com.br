@@ -225,12 +225,14 @@ header a {
 
 @media (max-width: 768px) {
     .subTitulo {
+        
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
         flex-direction: column-reverse;
-        margin-top: -3rem;
+        margin-top: -4rem;
+       
 
     }
 
@@ -253,7 +255,7 @@ header a {
     }
 
     #typingText {
-        font-size: 17px;
+        font-size: 16px;
         margin-top: -3rem;
         margin-left: 1rem;
         white-space: nowrap;
@@ -264,7 +266,7 @@ header a {
 @media (max-width: 468px) {
     .caixa {
         margin-left: -1rem;
-        margin-top: -8rem;
+        margin-top: -10rem;
     }
 
     .caixa img {
@@ -283,6 +285,7 @@ header a {
 
     #typingText {
         margin-top: -5.8rem;
+        font-size: 17px;
     }
 
 }
@@ -326,7 +329,7 @@ header a {
 
 @media (max-width: 468px) {
     .media-social {
-        margin-left: 7rem;
+        margin-left: 5rem;
         margin-top: 2rem;
     }
 }
@@ -409,6 +412,13 @@ header a {
     }
 }
 
+@media (max-width: 468px) {
+
+    .projetos{
+        margin-top: -8rem;
+    }
+}
+
 /* section Projetos */
 
 /* section Certificados */
@@ -458,6 +468,10 @@ header a {
     height: 300px;
 }
 
+.certificados p {
+    padding: 7px 0;
+}
+
 .certificados li:hover {
     box-shadow: 0px 0px 2px aqua, 0px 0px 4px aqua, 0px 0px 8px aqua, 0px 0px 10px aqua;
 }
@@ -476,17 +490,17 @@ transition: transform 0.3s ease;
 }    
 
 #image1.enlarged {
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 #image2.enlarged {
-    transform: scale(1.3);
+    transform: scale(1.5);
     
 }
 #image3.enlarged {
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 #image4.enlarged {
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 @keyframes opacity{
