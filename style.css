@@ -278,18 +278,15 @@ header a {
 @media (max-width: 468px) {
     .subTitulo{
     position: absolute;
-    top: -2rem;
+    top: -4rem;
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column-reverse;
+    padding: 0 10%;
      }
     
-    .caixa {
-   margin-left: -2.5rem;
-    }
-
-    .caixa img {
+     .caixa img {
         width: 240px;
         height: 240px;
         border-radius: 50%;
