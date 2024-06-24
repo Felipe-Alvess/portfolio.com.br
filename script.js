@@ -21,7 +21,8 @@ document.body.classList.toggle('white');
 
 new TypeIt('#typingText',{
 speed:200,
-strings:["Eu sou' Felipe Alves",'Desenvolvedor Front End', 'Web Designer'],
+waintUntilvisible: true,
+strings:["Eu sou' Felipe Alves",'Desenvolvedor Front End', 'Web Designer']
 })
 .go();
 

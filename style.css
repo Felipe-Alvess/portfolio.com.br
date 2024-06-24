@@ -171,7 +171,6 @@ header a {
     align-items: center;
     padding: 0 5rem;
     margin-top: 2rem;
-
 }
 
 .caixa {
@@ -222,25 +221,27 @@ header a {
 
 #typingText {
     font-size: 30px;
-    display: block;
+    display:flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    padding: 0 12%;
-    margin-left: -7.5rem;
+    padding: 2% 12%;
+    margin-left: -8rem;
     font-weight: bold;
-
-
+    flex-wrap: nowrap;
+    
 }
 
 @media (max-width: 768px) {
     .subTitulo {
-        display: flex;
+        display: block;
         justify-content: center;
         text-align: center;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-top: -4rem;
+        flex-wrap: nowrap;
+        white-space: nowrap;
     }
 
     .caixa {
@@ -272,15 +273,14 @@ header a {
 
 @media (max-width: 468px) {
     .subTitulo{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-top: -14rem;
-    }
+    position: absolute;
+    top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+     }
     
     .caixa {
-    margin-top: -1rem;
-    margin-left: -2.5rem;
+   margin-left: -2.5rem;
     }
 
     .caixa img {
@@ -298,7 +298,11 @@ header a {
     }
 
     #typingText {
+        position: absolute;
         font-size: 25px;
+        margin-top: 19rem;
+        flex-wrap: nowrap;
+        white-space: nowrap;
     }
 
 }
@@ -307,7 +311,7 @@ header a {
 
 .media-social {
     position: absolute;
-    top: 62%;
+    top: 66%;
     left: 7%;
 }
 
@@ -343,7 +347,7 @@ header a {
 @media (max-width: 468px) {
     .media-social {
         margin-left: 6rem;
-        margin-top: -4rem;
+        margin-top: 6rem;
     }
 }
 
