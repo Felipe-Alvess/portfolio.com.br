@@ -435,7 +435,7 @@ header a {
 @media (max-width: 468px) {
 
     .projetos{
-        margin-top: -17rem;
+        margin-top: -18rem;
     }
 }
 
@@ -543,7 +543,7 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
      .certificados{
-        margin-top: -17rem;
+        margin-top: -18rem;
      }
     .certificados img{
         width: 400px;
@@ -613,7 +613,7 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
  .sobre {
-    margin-top: -17rem;
+    margin-top: -18rem;
  }   
 }
 
@@ -687,7 +687,7 @@ color: red;
 @media (max-width: 468px) {
     .contatos{
         display: block;
-        margin-top: -17rem;
+        margin-top: -18rem;
     }
 }
 
