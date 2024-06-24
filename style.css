@@ -534,7 +534,20 @@ transition: transform 0.3s ease;
      }
     .certificados img{
         width: 400px;
+    }
+
+    #image1.enlarged {
+        transform: scale(0);
+    }
+    #image2.enlarged {
+        transform: scale(0);
         
+    }
+    #image3.enlarged {
+        transform: scale(0);
+    }
+    #image4.enlarged {
+        transform: scale(0);
     }
 }
 
