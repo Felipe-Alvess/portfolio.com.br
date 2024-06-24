@@ -154,6 +154,12 @@ header a {
     }
 }
 
+@media (max-width: 468px){
+   .label {
+   margin-left: -3.5rem;
+   }
+}
+
 /* DropDown menu */
 
 .subTitulo {
@@ -229,15 +235,12 @@ header a {
 
 @media (max-width: 768px) {
     .subTitulo {
-        
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
         flex-direction: column-reverse;
         margin-top: -4rem;
-       
-
     }
 
     .caixa {
@@ -295,9 +298,9 @@ header a {
     }
 
     #typingText {
-       font-size: 25px;
-        position: absolute;
-        top: 12rem;
+        font-size: 25px;
+       
+       
     }
 
 }
