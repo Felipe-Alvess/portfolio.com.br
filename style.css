@@ -435,7 +435,7 @@ header a {
 @media (max-width: 468px) {
 
     .projetos{
-        margin-top: -11rem;
+        margin-top: -17rem;
     }
 }
 
@@ -543,24 +543,24 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
      .certificados{
-        margin-top: -19rem;
+        margin-top: -17rem;
      }
     .certificados img{
         width: 400px;
     }
 
     #image1.enlarged {
-        transform: scale(0);
+        transform: scale(1);
     }
     #image2.enlarged {
-        transform: scale(0);
+        transform: scale(1);
         
     }
     #image3.enlarged {
-        transform: scale(0);
+        transform: scale(1);
     }
     #image4.enlarged {
-        transform: scale(0);
+        transform: scale(1);
     }
 }
 
@@ -613,7 +613,7 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
  .sobre {
-    margin-top: -11rem;
+    margin-top: -17rem;
  }   
 }
 
@@ -687,7 +687,7 @@ color: red;
 @media (max-width: 468px) {
     .contatos{
         display: block;
-        margin-top: -15rem;
+        margin-top: -17rem;
     }
 }
 
