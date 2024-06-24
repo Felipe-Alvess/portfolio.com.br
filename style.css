@@ -303,9 +303,8 @@ header a {
     #typingText {
         position: absolute;
         font-size: 25px;
-        margin-top: 19rem;
-        flex-wrap: nowrap;
-        white-space: nowrap;
+        margin-top: 32rem;
+       
     }
 
 }
@@ -349,9 +348,11 @@ header a {
 
 @media (max-width: 468px) {
     .media-social {
-        margin-left: 6rem;
-        margin-top: -3rem;
+        margin-left: 0.3rem;
+        margin-top: -11rem;
+        width: 82%;
     }
+ 
 }
 
 /* mediaSocial */
@@ -435,7 +436,7 @@ header a {
 @media (max-width: 468px) {
 
     .projetos{
-        margin-top: -19rem;
+        margin-top: -11rem;
     }
 }
 
@@ -537,7 +538,7 @@ transition: transform 0.3s ease;
 .certificados{
         width: 100%;
         padding-top: 4rem;
-        margin-top: -22rem;
+        margin-top: -11rem;
     }
 }
 
@@ -613,7 +614,7 @@ transition: transform 0.3s ease;
 
 @media (max-width: 468px) {
  .sobre {
-    margin-top: -19rem;
+    margin-top: -11rem;
  }   
 }
 
