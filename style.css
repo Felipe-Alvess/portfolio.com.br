@@ -278,8 +278,10 @@ header a {
 @media (max-width: 468px) {
     .subTitulo{
     position: absolute;
-    top: -5rem;
+    top: -2rem;
     display: flex;
+    text-align: center;
+    align-items: center;
     flex-direction: column-reverse;
      }
     
@@ -609,7 +611,6 @@ transition: transform 0.3s ease;
     }
     .sobre ul{
         display: block;
-        
     }
 }
 
