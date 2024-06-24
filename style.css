@@ -274,7 +274,7 @@ header a {
 @media (max-width: 468px) {
     .subTitulo{
     position: absolute;
-    top: 2rem;
+    top: -5rem;
     display: flex;
     flex-direction: column-reverse;
      }
