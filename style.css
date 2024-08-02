@@ -338,6 +338,19 @@ align-items: center;
     padding: 1%;
 }
 
+#image1, #image2, #image3,
+#image4,#image5,#image6,
+#image7,#image8,#image9,#image10,#image11 {
+transition: transform 0.3s ease;
+cursor: pointer;
+}
+
+#image1.enlarged,#image2.enlarged, #image3.enlarged,
+#image4.enlarged,#image5.enlarged,#image6.enlarged,
+#image7.enlarged,#image8.enlarged, #image9.enlarged,#image10.enlarged,#image11.enlarged{
+    transform: scale(1.5);
+}
+
 /* section Certificados */
 
 /* section sobre */
@@ -499,7 +512,7 @@ nav {
 }
 /* responsive 768px */
 
-/* responsive 468px */
+ /* responsive 468px  */
 @media (max-width: 468px){
     .caixa {
         margin: -3rem auto;
