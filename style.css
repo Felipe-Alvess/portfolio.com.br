@@ -415,6 +415,11 @@ cursor: pointer;
     border-radius: 10px;
     font-weight: bold;
 }
+
+.contatos li span {
+    color: red;
+}
+
 .contatos .bx-envelope,
 .bxl-gmail, 
 .bx-phone, 
@@ -506,7 +511,6 @@ nav {
 
 .contatos li {
     width: 100%;
-    
 }
 
 }
