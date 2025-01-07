@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <!-- Início header -->
+    <header>
+        <i class='bx bx-menu-alt-left' onclick="openMenuMobile()"></i>
+        <h2>Portfó<span>lio</span></h2>
+        <!-- inicio menu Principal -->
+        <nav>
+            <ul class="mainMenu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#Skills" onclick="showSkills()" >Habilidades</a></li>
+                <li><a href="#Projetos" onclick="showProjects()" >Projetos</a></li>
+                <li><a href="#Sobre" onclick="showSobre()">Sobre</a></li>
+                <li><a href="#Contato" onclick="showContact()" >Contatos</a></li>
+           
+                  <!-- button alter theme -->
+                   <div>
+            <input type="checkbox" class="checkbox" id="chk">
+            <label class="label" for="chk">
+               <i class="bx bx-sun"></i>
+               <i class="bx bx-moon"></i>
+               <div class="ball"></div>
+            </label>
+        </div>
+           <!-- button alter theme -->
+            </ul>
+        </nav>
+        <!-- Final menu principal -->
+    </header>
+    <!-- Final header -->
+
+    <!-- Início menu mobile -->
+     <div class="mobileMenu" id="mobileMenu">
+        <i class='bx bx-x' onclick="closeMenuMobile()"></i>
+        <ul onclick="closeMenuMobile()">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#Skills" onclick="showSkills()" >Habilidades</a></li>
+            <li><a href="#Projetos" onclick="showProjects()" >Projetos</a></li>
+            <li><a href="#Sobre" onclick="showSobre()" >Sobre</a></li>
+            <li><a href="#Contato" onclick="showContact()" >Contatos</a></li>
+        </ul>
+    </div>
+    <!-- Início menu mobile -->
+
+<!-- inicio container -->
+    <div class="container">
+        <!-- inicio container -->  
+
+<!-- inicio subtitilo e imagem -->
+ <div class="subTitulo" id="subTitulo">
+    <div class="apresentacao">
+ <h1>Felipe Alves</h1>
+ <p id="typingText"></p>
+ <div class="media">
+ <a href="#Sobre" class="aboutMe" onclick="showSobre()" >Saiba mais</a>
+ <a href="https://github.com/Felipe-Alvess" target="_blank"><i class='bx bxl-github'></i></a>
+ <a href="https://www.instagram.com/_felipex_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+ <a href="https://www.linkedin.com/in/felipe-alves-59462618a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+ <a href="https://wa.me/5511953044725" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+</div>
+</div>
+
+<div class="border">
+<img src="./img/WhatsApp Image 2024-12-21 at 12.34.46.jpeg" alt="Felipe Alves">
+</div>
+</div>
+<!-- fim subtitilo e imagem -->
+
+<!-- loading page -->
+<div class="preloader" id="preloader">
+    <div class="loader" id="loader"></div>
+</div>
+<!-- loading page -->
+
+<!-- section skills -->
+<section id="Skills" class="habilidades">
+    <h2>Minhas Habilidades</h2>
+    <ul>
+        <li><i class='bx bxl-html5'></i> HTML5
+        <div class="barra">
+            <div class="progressoHtml" id="barraStatus">80%</div>
+        </div></li>
+
+        <li><i class='bx bxl-css3'></i> CSS3
+        <div class="barra">
+            <div class="progressoCss">50%</div>
+        </div></li>
+
+        <li><i class='bx bxl-javascript'></i> JavaScript
+        <div class="barra">
+            <div class="progressoJavascript">10%</div>
+        </div></li>
+
+        <li><i class='bx bxs-data'></i> Banco de dados
+        <div class="barra">
+            <div class="progressoBanco">10%</div>
+        </div></li>
+    </ul>
+</section>
+
+<!-- section  skills -->
+
+<!-- section projetos -->
+
+<section id="Projects" class="projetos">
+    <h2>Meus Projetos</h2>
+    <ul>
+        <li><img src="./img/clone do instagram.png" alt="Clone do Instagram"><a
+                href="https://felipe-alvess.github.io/clone-instagram.com/" target="_blank">Clone do Instagram</a></li>
+        <li><img src="./img/Fast Burguer.png" alt="Fast Burguer"><a
+                href="https://felipe-alvess.github.io/fastburguer/" target="_blank">Fast Burguer</a></li>
+        <li><img src="./img/Formulário de vendas.png" alt="Formulário de vendas"><a href=""
+                target="_blank">Formulário de vendas</a></li>
+        <li><img src="./img/hDC Host.png" alt="hDC Host"><a href="https://felipe-alvess.github.io/hdchost.com/"
+                target="_blank">hDC Host</a></li>
+        <li><img src="./img/Previsao do tempo.png" alt="Previsão do tempo"><a
+                href="https://felipe-alvess.github.io/previsao.com.br/" target="_blank">Previsão do tempo</a>
+        </li>
+        <li><img src="./img/Relogio digital.png" alt="Relogio digital"><a
+                href="https://felipe-alvess.github.io/relogio.com.br/" target="_blank">Relogio digital</a></li>
+        <li><img src="./img/Star buscks.png" alt="Star buscks"><a
+                href="https://felipe-alvess.github.io/starbucks.com/" target="_blank">Star buscks</a></li>
+        <li><img src="./img/Shop Express.png" alt="Shop Express"><a
+                href="https://felipe-alvess.github.io/shopexpress.com-teste/index.html" target="_blank">Shop
+                Express</a></li>
+
+    </ul>
+</section> 
+<!-- section projetos -->
+
+<!-- Section Sobre mim -->
+<section class="sobre" id="Sobre">
+    <h2>Sobre mim</h2>
+    <ul>
+    <div class="sobreTexto">
+        <p>Sou um desenvolvedor frontend, estudante de Tecnologia em Análise de desenvolvimento de sistemas na Uninove. 
+            Trabalho com HTML5, CSS3, JavaScript, Php E Banco de dados. 
+            Meu objetivo é crescer profissionalmente e melhorar minhas habilidades com cada novo desafio. 
+        Esttou em transição de caareira, buscando o primeiro emprego em uma destas áreas, sou muito esforçado, sempre disposto a aprender.</p>
+    </div>
+    <a href="./document/Currículo Atualizado 2024.pdf" target="_blank">Download CV</a>
+    <div class="img-sobre">
+        <img src="./img/WhatsApp Image 2024-12-21 at 12.41.27.jpeg" alt="Felipe Alves ">
+    </div>
+</ul>
+</section>
+<!--Section Sobre mim -->
+
+<!-- section Contatos -->
+
+<section class="contatos" id="Contatos">
+    <h2>Meus Contatos</h2>
+    <ul>
+        <li><i class='bx bxs-phone-call'>Telefone:</i> (11) 95304-4725</li>
+        <li><i class='bx bxl-gmail'>Gmail: </i> <a href="mailto:luizfelipea445@gmail.com">luizfelipea445@gmail.com</a></li>
+        <li><i class='bx bxs-envelope'>E-mail: </i> <a href="mailto:flp_luizfelip@hotmail.com">flp_luizfelip@hotmail.com</a></li>
+        <li><i class='bx bxl-github'>Github:</i> <a href="https://github.com/Felipe-Alvess" target="_blank">Felipe-Alvess</a></li>
+        <li><i class='bx bxl-instagram'>Instagram: </i> <a href="https://www.instagram.com/_felipex_/" target="_blank">@_felipex_</a></li>
+        <li><i class='bx bxl-linkedin'>Linkedin: </i> <a href="https://www.linkedin.com/in/felipe-alves-59462618a/" target="_blank">felipe-alves-59462618a</a></li>
+        <li><i class='bx bxl-whatsapp'>WhatsApp: </i> <a href="https://wa.me/5511953044725" target="_blank">11 95304-4725</a></li>
+        <li><i class='bx bxs-map'>Localização: </i>Rua Vereda Tropical, 454 - Santana de Parnaíba - SP</li>
+        
+    </ul>
+</section>
+
+<!-- section Contatos -->
+
+<!-- fim container -->
+</div>
+<!-- fim container -->
+</body>
+<script src="script.js"></script>
+</html>
