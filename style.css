@@ -564,6 +564,7 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin-left: 3rem;
 }
 
 .img-sobre::after,
@@ -721,7 +722,6 @@ text-align: center;
     }
 
     .sobre{
-     
         padding: 4rem 2rem ;
         gap: 15px;
     }
@@ -735,6 +735,8 @@ text-align: center;
         margin: 0 auto;
     }
 
+
+
     .sobre a {
         margin-top: 1rem
     }
@@ -743,6 +745,12 @@ text-align: center;
         width: 300px;
         margin: 5rem auto;
     }
+
+    .img-sobre{
+      margin-left: 0.5rem;
+    }
+
+
 
     .contatos{
         padding: 6rem 0;
