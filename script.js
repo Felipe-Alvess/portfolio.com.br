@@ -14,7 +14,7 @@ new TypeIt('#typingText',{
 .type('Web desgner').delete(7)
 .type('Designer',{delay: 3000})
 .break({ delay: 500 })
-.type('Sou estudante de Tecnologia em análise de desenvolvimento de sistemas na uninove, estou no 5° e último semestre e estou em transição de carreira estou em busca do primeiro emprego na área da tecnologia, buscando cargos como desenvolvedor front end, análista de sistemas ou suporte de T.I.')
+.type('Sou estudante de Tecnologia em análise de desenvolvimento de sistemas na uninove, estou no 5° e último semestre e estou em transição de carreira estou em busca do primeiro emprego na área da tecnologia, buscando cargos como desenvolvedor front end, análista de sistemas ou suporte de T.I')
 .go();
 
 // open Menu Mobile

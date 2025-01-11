@@ -744,13 +744,18 @@ text-align: center;
         margin: 5rem auto;
     }
 
-   
     .contatos{
         padding: 6rem 0;
-        width: 100%;
         gap: 10px;
-       
+        width: 100%;
     }
-}
+    }
+
+    .contatos ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+   
 
 /* Configuração responsivo  768px */
