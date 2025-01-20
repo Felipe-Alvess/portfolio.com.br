@@ -695,7 +695,7 @@ color:#fff;
         flex-direction: column-reverse;
         justify-content: center;
         gap: 15px;
-        padding: 3rem 0;
+        padding: 3rem 0 1rem;
     }
 
     .subTitulo h1 {
@@ -723,7 +723,7 @@ text-align: center;
 
     .habilidades{
        height: 100vh;
-       padding-top: 15rem;
+       padding-top: 12rem;
     }
 
     .projetos{
