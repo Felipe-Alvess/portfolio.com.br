@@ -349,13 +349,37 @@ nav li:hover{
     gap: 10px;
     flex-wrap: wrap;
     font-size: 26px;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .habilidades li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid;
+    padding: 5px 5px 2rem;
+    border-radius: 10px;
+    gap: 10px;
+ }
+
+ .habilidades i{
+    font-size: 50px;
+ }
+
+ .bxl-html5{
+    color: #e34f26;
+ }
+
+ .bxl-css3{
+    color: #1572B6;
+ }
+
+ .bxl-javascript{
+    color: #f15722;
+ }
+
+ .bxs-data{
+    color: #007bff;
  }
 
 
@@ -671,7 +695,7 @@ color:#fff;
         flex-direction: column-reverse;
         justify-content: center;
         gap: 15px;
-        padding: 2rem 0;
+        padding: 3rem 0;
     }
 
     .subTitulo h1 {
@@ -699,11 +723,12 @@ text-align: center;
 
     .habilidades{
        height: 100vh;
+       padding-top: 15rem;
     }
 
     .projetos{
         width: 100%;
-       padding-top: 10rem;
+       padding-top: 12rem;
        
     }
 
