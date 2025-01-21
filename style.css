@@ -615,10 +615,10 @@ border-radius: 10px;
 .sobre a{
     border: 2px solid;
     width: 150px;
-    margin-top: 7.5rem;
+    margin-top: 8.5rem;
     position: absolute;
     border-radius: 5px;
-    padding: 7px;
+    padding: 7px 0;
     transition: 0.2s linear;
 }
 
