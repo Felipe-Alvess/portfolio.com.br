@@ -541,6 +541,7 @@ nav li:hover{
     animation-iteration-count: initial;
     animation-direction: alternate;
     white-space: nowrap;
+    padding: 10rem 0 0;
 }
 
 .projetos ul{
@@ -597,6 +598,7 @@ flex-wrap: wrap;
     text-align: center;
     gap: 10px;
     width: 100%;
+    height: 100vh;
     padding: 5rem 0;
     
 }
