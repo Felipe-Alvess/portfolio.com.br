@@ -535,7 +535,7 @@ nav li:hover{
     animation-iteration-count: initial;
     animation-direction: alternate;
     white-space: nowrap;
-    padding: 4rem 0 0.5rem;
+    padding: 6rem 0 0.5rem;
 }
 
 .projetos ul{
