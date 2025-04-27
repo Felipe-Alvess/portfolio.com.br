@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Meu Portfólio</title>
+</head>
+
+<body>
+  <!-- clas container com todo o conteúdo -->
+  <div class="container">
+
+    <!-- header com toda a nav-bar -->
+    <header>
+      <!-- class menu com todo o conteudo da nav-bar -->
+      <div class="menu">
+        <!-- class menuMobile com btn menu -->
+        <div class="menuMobile" id="menuMobile" onclick="menuMobile()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <!-- class menuMobile com btn menu -->
+        <!-- logo portfolio -->
+        <h2>Portfó<span>lio</span></h2>
+        <!-- logo portfolio -->
+        <!-- links de navegação  -->
+        <nav>
+          <ul class="nav-list" id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#projetos" onclick="navLinks()">Projetos</a></li>
+            <li><a href="#habilidades" onclick="navLinks2()">Habilidades</a></li>
+            <li><a href="#sobre" onclick="navLinks3()">Sobre</a></li>
+            <li><a href="#contatos" onclick="navLinks4()">Contatos</a></li>
+          </ul>
+        </nav>
+        <!-- links de navegação  -->
+        <!-- btn alterar tema -->
+        <input type="checkbox" id="checkbox" class="checkbox">
+        <label class="label" for="checkbox">
+          <i class='bx bxs-sun'></i>
+          <i class='bx bxs-moon'></i>
+          <div class="ball"></div>
+        </label>
+        <!-- btn alterar tema -->
+        <!-- class e id bg-menu -->
+        <div class="bg-menu" id="bg-menu"></div>
+        <!-- class e id bg-menu -->
+      </div>
+      <!-- class menu com todo o conteudo da nav-bar -->
+    </header>
+    <!-- header com toda a nav-bar -->
+    <!-- elemento para carregar a página -->
+    <div class="preloader" id="preloader">
+      <div class="load"></div>
+      <div class="load"></div>
+      <div class="load"></div>
+      <div class="load"></div>
+    </div>
+    <!-- elemento para carregar a página -->
+    <!-- titulo container com todo o conteúdo do título -->
+    <div class="titulo-container">
+      <!-- subtitulo com conteúdo de texto e apps-->
+      <div class="subTitulo">
+        <h2>Ola, Eu sou</h2>
+        <h1>Felipe Alves</h1>
+        <p id="typingText"></p>
+        <!-- apps -->
+        <div class="mediaApss">
+          <ul>
+            <li><a href="https://github.com/Felipe-Alvess" target="_blank"><i class='bx bxl-github'></i></a></li>
+            <li><a href="https://www.instagram.com/_felipex_/" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="https://www.linkedin.com/in/felipe-alves-59462618a/" target="_blank"><i
+                  class='bx bxl-linkedin'></i></a></li>
+            <li><a href="https://wa.me/5511953044725" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+          </ul>
+        </div>
+        <div class="documents">
+          <a href="./img/Currículo Atualizado 2025.pdf" target="_blank">Download CV</a>
+        </div>
+      </div>
+      <!-- subtitulo com conteúdo de texto e apps -->
+      <!-- class box com imagens do titulo -->
+      <div class="box">
+        <!-- class de animação borda infinita -->
+        <div class="border">
+          <img src="./img/Felipe.jpg" alt="Felipe Alves Desenvolvedor Front-end">
+        </div>
+        <!-- class de animação borda infinita -->
+      </div>
+      <!-- class box com imagens do titulo -->
+    </div>
+    <!-- titulo-container com todo o conteúdo do título -->
+    <!-- section  Projetos-->
+    <section>
+      <!-- section Projetos -->
+      <div class="projetos" id="projetos">
+        <h2>Meus projetos</h2>
+        <ul>
+          <li><img src="./img/PetLife.png" alt="PetLife"><a href="https://felipe-alvess.github.io/meupetlife.com/"
+              target="_blank">PetLife</a></li>
+
+          <li><img src="./img/Previsão do tempo.png" alt="Previsão do Tempo"><a
+              href="https://felipe-alvess.github.io/previsao.com.br/" target="_blank">Previsão do Tempo</a></li>
+
+          <li><img src="./img/Relógio Digital.png" alt="Relógio Digital"><a
+              href="https://felipe-alvess.github.io/relogio.com.br/" target="_blank">Relógio Digital</a></li>
+
+          <li><img src="./img/Calculadora Digital.png" alt="Calculadora Digital"><a
+              href="https://felipe-alvess.github.io/calculando.com.br/" target="_blank">Calculadora Digital</a></li>
+
+          <li><img src="./img/hDC Host.png" alt="hDC Host"><a href="https://felipe-alvess.github.io/hdchost.com/"
+              target="_blank">hDC Host</a></li>
+
+          <li><img src="./img/Form Registro.png" alt="Formulário de Registro"><a
+              href="https://felipe-alvess.github.io/form.com.br/" target="_blank">Formulário de Registro</a></li>
+
+          <li><img src="./img/Shop Express.png" alt="Shop Express"><a
+              href="https://felipe-alvess.github.io/shopexpress.com-teste/index.html" target="_blank">Shop Express</a>
+          </li>
+
+          <li><img src="./img/to-do list.png" alt="Todo List"><a
+              href="https://felipe-alvess.github.io/calculando.com.br/" target="_blank">Lista de Tarefas</a></li>
+        </ul>
+      </div>
+      <!-- section Projetos -->
+    </section>
+    <!-- section  projetos -->
+
+    <!-- section Habilidades -->
+    <section>
+      <div class="habilidades" id="habilidades">
+        <!-- titulo da pagina habilidades h2 -->
+        <h2>Minhas Habilidades</h2>
+        <!-- titulo da pagina habilidades h2-->
+        <!-- subtitulo da página habilidades h3 -->
+        <h3>Front-End</h3>
+        <!-- subtitulo da página habilidades h3 -->
+        <!-- lista de habilidades -->
+        <ul>
+          <li><i class='bx bxl-html5'></i>Html</li>
+          <li><i class='bx bxl-css3'></i>CSS</li>
+          <li><i class='bx bxl-javascript'></i>JavaScript</li>
+          <li><i class='bx bxs-data'></i>Banco de dados</li>
+          <li><i class='bx bxl-php'></i>Php</li>
+        </ul>
+        <!-- lista de habilidades -->
+      </div>
+    </section>
+    <!-- section Habilidades -->
+
+    <!-- section sobre -->
+    <section>
+      <div class="sobre" id="sobre">
+        <h2>Sobre</h2>
+        <div class="sobremim">
+          <div class="sobreTitulo">
+            <h1>Felipe Alves</h1>
+            <h2>Desenvolvedor Front-End</h2>
+            <p>
+              Sou um desenvolvedor frontend, estudante de Tecnologia em Análise de desenvolvimento de sistemas na
+              Uninove.
+              Trabalho com HTML, CSS, JavaScript, Php E Banco de dados.
+              Meu objetivo é crescer profissionalmente e melhorar minhas habilidades com cada novo desafio.
+              Estou em transição de carreira, buscando o primeiro emprego em uma destas áreas,
+              sou muito esforçado, sempre disposto a aprender, e sempre disponível para o que precisar.
+              Além da faculdade também estou estudando na Udemy,
+              curso de formação Front End com usando JavaScript, React e TypeScript, e outro curso de SQL do básico ao
+              avançado com MySQL.
+            </p>
+            <div class="mediaApps">
+              <ul>
+                <li><a href="https://github.com/Felipe-Alvess" target="_blank"><i class='bx bxl-github'></i></a></li>
+                <li><a href="https://www.instagram.com/_felipex_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/felipe-alves-59462618a/" target="_blank"><i
+                      class='bx bxl-linkedin'></i></a></li>
+                <li><a href="https://wa.me/5511953044725" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <div class="border">
+              <img src="./img/Felipe.jpg" alt="Felipe Alves Desenvolvedor Front End">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section sobre -->
+
+    <!-- footer contatos -->
+    <section>
+      <div class="contatos" id="contatos">
+        <h2>Meus Contatos</h2>
+        <ul>
+          <div class="duvida">
+            <li><span>Email</span><i class='bx bx-chevron-down'></i>
+              <p class="contact"><i class='bx bx-envelope'></i> <a
+                  href="mailto:flp_luizfelipe@hotmail.com">flp-luizfelipe@hotmail.com</a></p>
+            </li>
+          </div>
+
+          <div class="duvida">
+            <li><span>Gmail</span><i class='bx bx-chevron-down'></i>
+              <p class="contact"><i class='bx bxl-gmail'></i><a href="mailto:luizfelipea445@gmail.com">
+                  luizfelipea445@gmail.com</a></p>
+            </li>
+          </div>
+
+          <div class="duvida">
+            <li><span>Telefone</span><i class='bx bx-chevron-down'></i>
+              <p class="contact"><i class='bx bxs-phone-call'></i> 11953044725</p>
+            </li>
+          </div>
+
+          <div class="duvida">
+            <li><span>WhatsApp</span><i class='bx bx-chevron-down'></i>
+              <p class="contact"><i class='bx bxl-whatsapp'></i><a href="https://wa.me/5511953044725" target="_blank">
+                  11953044725</a></p>
+            </li>
+          </div>
+        </ul>
+        <div class="mediaContact">
+
+          <a href="https://github.com/Felipe-Alvess" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="https://www.instagram.com/_felipex_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+          <a href="https://www.linkedin.com/in/felipe-alves-59462618a/" target="_blank"><i
+              class='bx bxl-linkedin'></i></a>
+          <a href="https://wa.me/5511953044725" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- footer contatos -->
+
+  </div>
+  <!-- clas container com todo o conteúdo -->
+</body>
+<script src="script.js"></script>
+
+</html>
