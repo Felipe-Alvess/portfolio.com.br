@@ -808,10 +808,6 @@ animation: rotateImg 4s infinite linear forwards;
     z-index: -1;
 }
 
-
-
-
-
 .sobre .sobremim .sobreTitulo .mediaApps ul {
     gap: 10px;
     padding-top: 1rem;
@@ -1047,6 +1043,12 @@ animation: rotateImg 4s infinite linear forwards;
         display: flex;
         justify-content: center;
         white-space: nowrap;
+    }
+
+    .titulo-container .box img {
+        width: 250px;
+        height: 250px;
+        padding: 10px;
     }
 
     .titulo-container .border {
