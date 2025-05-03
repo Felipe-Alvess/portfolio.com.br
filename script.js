@@ -33,7 +33,7 @@ setTimeout(loadingPage, 1280);
 function navLinks(){
     document.getElementById('projetos').classList.toggle('showProject');
     document.getElementById('habilidades').classList.remove('showSkills');
-    document.getElementById('sobre').classList.remove('showProject');
+    document.getElementById('sobre').classList.remove('showUnder');
     document.getElementById('contatos').classList.remove('showContact');
 
     document.getElementById("menuMobile").classList.toggle("change");
